@@ -14,3 +14,6 @@ https://leetcode.com/problems/sort-list/
 
 155. Min Stack
 https://leetcode.com/problems/min-stack/
+
+114. Flatten Binary Tree to Linked List
+https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/
