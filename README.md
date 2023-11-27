@@ -5,3 +5,12 @@ Este proyecto tiene como objetivo desarrollar un sistema de análisis de interac
 ## Links_videos:
 
 https://drive.google.com/drive/folders/1a6hm7pL812JKzoan_Jp3e8H_BljAD9v6?usp=sharing
+
+
+## Links_ejercioios:
+
+148. Sort List
+https://leetcode.com/problems/sort-list/
+
+155. Min Stack
+https://leetcode.com/problems/min-stack/
