@@ -91,14 +91,27 @@ Lee el archivo línea por línea y crea los objetos, por lo que depende linealme
 Complejidad: O(1)
 Agrega una línea al final del archivo, independientemente del contenido existente.
 
+8.- printStack(stack<Video> s)
+Complejidad: O(n)
+La función utiliza un bucle while para recorrer la pila original (s) y copiar los elementos en una pila temporal (temp).
+
+
+buscarPorNombre(buscarPorNombre(vector<Video> videos, string nombreBuscado))
+Complejidad: O(N)
+
+La función utiliza un bucle for para recorrer el vector de videos.
+En cada iteración, se compara el nombre del video actual con el nombre buscado.
+
+
+
 En resumen, el programa tiene una complejidad máxima de O(n log^2 n), asociada con las operaciones de ordenamiento mediante Shell Sort, y una complejidad mínima de O(1), relacionada con la operación que borra datos del archivo. Las demás funciones se sitúan entre estos extremos, con complejidades que van desde lineales hasta logarítmicas, dependiendo de la operación que realizan y el algoritmo empleado.
 
 ### SICT0302: Toma decisiones
 #### Selecciona un algoritmo de ordenamiento adecuado al problema y lo usa correctamente.
-En mi proyecto, he utilizado algoritmos de ordenamiento como ShellSort para ordenar los datos. Esta elección se basó en una evaluación de la complejidad de los algoritmos disponibles y en la naturaleza de los datos que se van a ordenar.  La complejidad de tiempo de shellsort es O(n^2), lo que significa que su rendimiento es adecuado para conjuntos de datos moderados además de ofrecer un redimiento .
+En mi proyecto, he utilizado algoritmos de ordenamiento como ShellSort para ordenar los datos. Esta elección se basó en una evaluación de la complejidad de los algoritmos disponibles y en la naturaleza de los datos que se van a ordenar.  La complejidad de tiempo de shellsort es O(nlog(n)), lo que significa que su rendimiento es adecuado para conjuntos de datos moderados además de ofrecer un redimiento .
 
 #### Selecciona una estructura de datos adecuada al problema y la usa correctamente.
-Para gestionar el historial de reproducción en el programa, opté por implementar una pila, que sigue el principio de Last In. Esta elección se basó en la necesidad de permitir una navegación sencilla entre canciones anteriores y posteriores en la lista de reproducción. Una pila es la estructura de datos perfecta para este propósito, ya que permite agregar elementos al historial de reproducción y eliminarlos en el orden en que se reprodujeron. Esta decisión demuestra que he seleccionado una estructura de datos adecuada para el problema y he considerado la eficiencia en términos de la gestión del historial de reproducción.
+Para gestionar el historial de reproducción en el programa, opté por implementar una pila, que sigue el principio de Last In Last Out. Esta elección se basó en la necesidad de permitir una navegación sencilla entre canciones anteriores y posteriores en la lista de reproducción. Una pila es la estructura de datos perfecta para este propósito, ya que permite agregar elementos al historial de reproducción y eliminarlos en el orden en que se reprodujeron. Esta decisión demuestra que he seleccionado una estructura de datos adecuada para el problema y he considerado la eficiencia en términos de la gestión del historial de reproducción.
 
 ### SICT0303: Implementa acciones científicas
 #### Implementa mecanismos para consultar información de las estructras correctos.
