@@ -126,7 +126,7 @@ int main() {
         cout<< i + 1 <<")"; videos[i].showInfo(); cout<<endl;
       }
 
-      cout << "\nDame el nombre consultar informacion de video en el CSV";cin>>consulta;
+      cout << "\nDame el nombre consultar informacion de video en el CSV \n(Ejemplo: Video1)\n Respuesta4:";cin>>consulta;
       for(int i = 0; i < videos.size(); i++){
       if(videos[i].getNombre() == consulta){
         cout<< i + 1 <<")"; videos[i].showInfo(); cout<<endl;
@@ -136,11 +136,13 @@ int main() {
     }
     else if (op == 9){
 
-      cout << "\nContenido de la pila:\n" << endl;
+      cout << "\nContenido de la pila:\n\n" << endl;
         printStack(miPila);
       cout << "\n";
 
+      
       if (!miPila.empty()) { // Verificar si la pila no está vacía
+          cout << "\nDame el nombre consultar informacion de video en el Pila\n (Ejemplo: Video1)\n Respuesta:";cin>>consulta2;
           mostrarPila = miPila;
           int numVideosEncontrados = 0;
 
@@ -161,6 +163,8 @@ int main() {
       } else {
           cout << "La pila está vacía, no hay videos para consultar." << endl;
       }
+
+      
 
     }
       
