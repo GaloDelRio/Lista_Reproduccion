@@ -10,7 +10,7 @@ https://drive.google.com/drive/folders/1a6hm7pL812JKzoan_Jp3e8H_BljAD9v6?usp=sha
 ## Links_ejercioios:
 
 148. Sort List
-[https://leetcode.com/problems/sort-list/](https://leetcode.com/problems/sort-list/submissions/1109750933/)
+https://leetcode.com/problems/sort-list/submissions/1109750933/
 
 155. Min Stack
 https://leetcode.com/problems/min-stack/
