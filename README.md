@@ -16,4 +16,4 @@ https://leetcode.com/problems/sort-list/submissions/1109750933/
 https://leetcode.com/problems/min-stack/submissions/1109751650/
 
 114. Flatten Binary Tree to Linked List
-https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/
+https://leetcode.com/problems/flatten-binary-tree-to-linked-list/submissions/1109043801/
